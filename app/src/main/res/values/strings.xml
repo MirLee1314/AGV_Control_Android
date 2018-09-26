@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">AGV控制器</string>
+    <string name="buttonOpenDevice">打开</string>
+    <string name="buttonConfig">配置</string>
+
+    <string name="buttonPlaceOne">Start</string>
+    <string name="buttonPlaceTwo">End</string>
+    <string name="buttonPlaceThree">Power</string>
+
+    <string name="buttonForward">前进</string>
+    <string name="buttonTurn">调头</string>
+    <string name="buttonTurnLeft">左转</string>
+    <string name="buttonTurnRight">右转</string>
+    <string name="buttonStop">停止</string>
+
+    <string name="buttonDebug">调试</string>
+    <string name="buttonAutomatic">全自动</string>
+    <string name="buttonStopAutomatic">停止全自动</string>
+
+    <string name="textViewReadBytes">ReadBytes</string>
+    <string name="textViewClearBytes">Clear</string>
+    <string name="textViewWriteBytes">WriteBytes</string>
+    <string name="textViewSendBytes">Send</string>
+
+    <string name="textViewPoint">自动控制</string>
+    <string name="textViewControl">手动控制</string>
+
+    <string name="textViewCurPlace">初始位置</string>
+    <string name="textViewSpeed">速度选择</string>
+
+    <string name="tab_menu_normal">常规</string>
+    <string name="tab_menu_transport">运输</string>
+    <string name="tab_menu_debug">调试</string>
+
+    <string-array name="speed_data">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="curPlace_data">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+</resources>

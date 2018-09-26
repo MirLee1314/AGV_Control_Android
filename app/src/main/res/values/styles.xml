@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/bg_topbar</item>
+        <item name="colorPrimaryDark">@color/text_gray</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/text_gray</item>
+        <item name="android:textColor">@color/text_gray</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="tab_menu_item">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:background">@drawable/tab_menu_bg</item>
+        <item name="android:textColor">@drawable/tab_menu_text</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="txt_lab" parent="TextAppearance.AppCompat">
+        <!-- 默认状态提示颜色和字体-->
+        <item name="android:textColorHint">#8c8c8c</item>
+        <item name="android:textSize">14sp</item>
+        <!-- 下面可以根据需要设置，如果没有将默认使用默认theme的颜色 -->
+        <!-- Label标签的颜色 -->
+        <item name="colorAccent">#c6174e</item>
+        <!-- 默认状态状态设置底线颜色 -->
+        <item name="colorControlNormal">#3F51b5</item>
+        <!-- 选择的底线颜色 -->
+        <item name="colorControlActivated">#c6174e</item>
+    </style>
+
+</resources>

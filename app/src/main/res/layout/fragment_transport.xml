@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1.5dip"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:background="@color/text_topbar">
+    <Button
+        android:id="@+id/PlaceOne"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/button"
+        android:layout_weight="1"
+        android:text="@string/buttonPlaceOne"/>
+    <Button
+        android:id="@+id/PlaceTwo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/button"
+        android:layout_weight="1"
+        android:text="@string/buttonPlaceTwo"/>
+    <Button
+        android:id="@+id/PlaceThree"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/button"
+        android:layout_weight="1"
+        android:text="@string/buttonPlaceThree"/>
+</LinearLayout>

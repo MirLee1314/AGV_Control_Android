@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_gray"
+    android:orientation="vertical">
+    <!--控制选项-->
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1.5dip"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="@color/text_topbar">
+        <Button
+            android:id="@+id/open_device"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/button"
+            android:layout_weight="1"
+            android:text="@string/buttonOpenDevice"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/curPlace"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.8"
+                android:gravity="center|bottom"
+                android:text="@string/textViewCurPlace"
+                android:textColor="#ffffff"/>
+
+            <Spinner
+                android:id="@+id/curPlaceSelect"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@color/bg_blue"
+                android:gravity="center_horizontal|center"
+                android:inputType="none" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/speed"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.8"
+                android:gravity="center|bottom"
+                android:text="@string/textViewSpeed"
+                android:textColor="#ffffff" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/speedSelect"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@color/bg_blue"
+                android:gravity="center_horizontal|center"
+                android:inputType="none" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Config"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/button"
+            android:layout_weight="1"
+            android:text="@string/buttonConfig"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pointTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/textViewPoint"
+        android:textColor="#ede2e2"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1.5dip"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="@color/text_topbar">
+        <Button
+            android:id="@+id/PlaceOne"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/button"
+            android:layout_weight="1"
+            android:text="@string/buttonPlaceOne"/>
+        <Button
+            android:id="@+id/PlaceTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/button"
+            android:layout_weight="1"
+            android:text="@string/buttonPlaceTwo"/>
+        <Button
+            android:id="@+id/PlaceThree"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/button"
+            android:layout_weight="1"
+            android:text="@string/buttonPlaceThree"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/controlTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/textViewControl"
+        android:textColor="#ede2e2"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1.5dip"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="@color/text_topbar">
+        <Button
+            android:id="@+id/Forward"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/button"
+            android:layout_weight="1"
+            android:text="@string/buttonForward" />
+        <Button
+            android:id="@+id/turn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/button"
+            android:layout_weight="1"
+            android:text="@string/buttonTurn" />
+        <Button
+            android:id="@+id/turnLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/button"
+            android:layout_weight="1"
+            android:text="@string/buttonTurnLeft" />
+        <Button
+            android:id="@+id/turnRight"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/button"
+            android:layout_weight="1"
+            android:text="@string/buttonTurnRight" />
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/button"
+            android:layout_weight="1"
+            android:text="@string/buttonStop" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/debug"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:layout_weight="1"
+            android:text="@string/buttonDebug"/>
+        <TextView
+            android:id="@+id/debugTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="#b48686"
+            android:text="调试接收"/>
+    </LinearLayout>
+</LinearLayout>
